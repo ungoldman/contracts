@@ -1,0 +1,41 @@
+{
+  "name": "contracts",
+  "description": "A collection of web development contract boilerplates.",
+  "version": "0.0.0",
+  "author": "Nate Goldman <ungoldman@gmail.com> (http://ungoldman.com/)",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "css-extract": "^1.1.2",
+    "live-server": "^1.1.0",
+    "markdown-it": "^8.0.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-deflist": "^2.0.1",
+    "markdown-it-emoji": "^1.2.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-ins": "^2.0.0",
+    "markdown-it-mark": "^2.0.0",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0",
+    "markdown-pdf": "^7.0.0",
+    "markdown-spellcheck": "^0.11.0",
+    "microgen": "^1.1.2",
+    "npm-run-all": "^3.1.0",
+    "sheetify": "^5.1.0",
+    "standard": "^8.0.0",
+    "style.css": "^1.0.0-alpha-4"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "css": "node-sass index.scss -o build/ --output-style=expanded",
+    "generate": "node index.js",
+    "lint": "standard",
+    "preserve": "node index.js > build/index.html",
+    "prompt": "microgen hourly.md build/index.md",
+    "serve": "live-server build",
+    "spellcheck": "mdspell '**/*.md' '!**/node_modules/**/*.md'",
+    "start": "run-s prompt generate",
+    "test": "run-s 'spellcheck -- -r' lint"
+  }
+}
