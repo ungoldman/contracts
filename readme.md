@@ -16,9 +16,11 @@ npm install
 npm start
 ```
 
-Available templates:
+## Templates
 
-- [Hourly](templates/hourly.md) (adapted from [Hourly Contract Template: Web App](https://www.docracy.com/0rrdu39vkli/hourly-contract-template-web-app) by [fiznool](https://github.com/fiznool))
+- **[Hourly](templates/hourly.md)**
+  - adapted from [Hourly Contract Template: Web App](https://www.docracy.com/0rrdu39vkli/hourly-contract-template-web-app) by [fiznool](https://github.com/fiznool)
+- :memo: [Create a new template](https://github.com/ungoldman/contracts/new/master/templates)
 
 ## License
 
