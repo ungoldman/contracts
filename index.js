@@ -42,7 +42,7 @@ const html = `
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>sitedown</title>
+  <title>Web Development Contract</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
