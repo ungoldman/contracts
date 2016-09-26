@@ -38,7 +38,7 @@ To summarise:
 
 The project scope is as follows:
 
-{{project scope description}}
+{{project-scope-description}}
 
 ---
 
