@@ -51,7 +51,13 @@ const html = `
 </html>
 `
 
+// write css
+fs.writeFileSync(cssWritePath, css, encoding)
+
+// write html
 fs.writeFileSync(htmlWritePath, html, encoding)
+
+// write pdf
 fs.createReadStream(mdPath)
   .pipe(markdownpdf({ cssPath: cssPath }))
   .pipe(fs.createWriteStream(pdfWritePath))

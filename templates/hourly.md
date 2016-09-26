@@ -15,7 +15,7 @@ Although the language is simple, the intentions are serious and this contract is
 
 To summarise:
 
-**You, {{client}}, represented by {{contact-name}} ({{contact-email}}), are hiring me, {{my-name}}, ({{my-email}}), for {{service-description}} services at the rate of ${{hourly-rate}} per hour.**
+**You, {{client}}, represented by {{contact-name}} ({{contact-email}}), are hiring me, {{my-name}}, ({{my-email}}), for the service of {{service-description}} at the rate of ${{hourly-rate}} per hour.**
 
 ## What do both parties agree to do?
 

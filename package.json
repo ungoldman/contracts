@@ -5,7 +5,6 @@
   "author": "Nate Goldman <ungoldman@gmail.com> (http://ungoldman.com/)",
   "devDependencies": {
     "browserify": "^13.1.0",
-    "css-extract": "^1.1.2",
     "live-server": "^1.1.0",
     "markdown-it": "^8.0.0",
     "markdown-it-abbr": "^1.0.4",
@@ -28,14 +27,12 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "css": "node-sass index.scss -o build/ --output-style=expanded",
     "generate": "node index.js",
     "lint": "standard",
-    "preserve": "node index.js > build/index.html",
-    "prompt": "microgen hourly.md build/index.md",
+    "prompt": "microgen templates/hourly.md build/index.md",
     "serve": "live-server build",
     "spellcheck": "mdspell '**/*.md' '!**/node_modules/**/*.md'",
-    "start": "run-s prompt generate",
+    "start": "run-s prompt generate serve",
     "test": "run-s 'spellcheck -- -r' lint"
   }
 }
