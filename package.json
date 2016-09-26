@@ -1,6 +1,6 @@
 {
   "name": "contracts",
-  "description": "A collection of web development contract boilerplates.",
+  "description": "Generate a web development contract based on a template.",
   "version": "0.0.0",
   "author": "Nate Goldman <ungoldman@gmail.com> (http://ungoldman.com/)",
   "devDependencies": {

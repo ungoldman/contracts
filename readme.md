@@ -1,6 +1,6 @@
 # Contracts
 
-Generates a web development contract based on a template.
+Generate a web development contract based on a template.
 
 ## Example
 
