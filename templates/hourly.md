@@ -30,7 +30,7 @@ To summarise:
 ### Me:
 
 - I have the experience and ability to do everything I've discussed with you and I'll do it all in a professional and timely manner.
-- I'll endeavour to meet every deadline that's set.
+- I'll endeavor to meet every deadline that's set.
 - I'll maintain the confidentiality of everything you give me.
 - I'll notify you as soon as possible if I cannot carry out any task that has been set by you, including due to any unforeseen circumstances ("Force Majeure" in legalese).
 
@@ -44,7 +44,7 @@ The project scope is as follows:
 
 As this project will be undertaken at an hourly rate, the above project scope description is a guide rather than concrete requirements for the application. The requirements will be agreed in writing and I will complete tasks to fulfil the requirements in a timely and professional manner, providing that the requirements adhere generally to the original project scope.
 
-The requirements for the work can be changed at any time, and I will endeavour to alter the application to meet the new requirements in a timely manner, provided that they still adhere generally to the original project scope.
+The requirements for the work can be changed at any time, and I will endeavor to alter the application to meet the new requirements in a timely manner, provided that they still adhere generally to the original project scope.
 
 If a task cannot be completed for any reason, I shall flag this up and notify you as soon as possible. This may include tasks that are significantly different from the original project scope.
 
