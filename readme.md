@@ -66,9 +66,11 @@ Prompts for placeholder input, then generates a markdown file, html file, and pd
 
 Templates files are plain markdown with handlebars placeholders (e.g. `{{my-variable}}`). The script uses [microgen](https://github.com/busterc/microgen) to prompt the user and generate a new filled out contract.
 
-- **[Hourly](templates/hourly.md)**
-  - adapted from [Hourly Contract Template: Web App](https://www.docracy.com/0rrdu39vkli/hourly-contract-template-web-app) by [fiznool](https://github.com/fiznool)
-- :memo: [Create a new template](https://github.com/ungoldman/contracts/new/master/templates)
+### [Hourly](templates/hourly.md)
+
+A template for a web development contract with an hourly rate. Adapted from [Hourly Contract Template: Web App](https://www.docracy.com/0rrdu39vkli/hourly-contract-template-web-app) by [fiznool](https://github.com/fiznool)
+
+### [:memo: Create a new template](https://github.com/ungoldman/contracts/new/master/templates)
 
 ## License
 
