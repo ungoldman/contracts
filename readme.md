@@ -38,7 +38,12 @@ termination-notice-in-days: 1
 Serving "build" at http://127.0.0.1:8080
 ```
 
+### HTML output
+
 ![HTML output](screenshots/html.png)
+
+### PDF output
+
 ![PDF output](screenshots/pdf.png)
 
 ## Install
